@@ -1,4 +1,4 @@
-# Modik Streamer by Staili — v0.1.0
+# Modik Streamer by Staili — v0.1.1
 
 Стриминг-мод для Casualties Unknown: подключается к DonationAlerts и превращает каждый донат в
 внутриигровое событие. Компаньон-приложение `CasualStreamer.exe` управляет всеми настройками,

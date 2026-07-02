@@ -61,5 +61,5 @@ EN: Donate → in-game event! DA: donationalerts.com/r/steyferstaili
     from 100₽ party pop · 500₽ sound cannon · 600₽ turret · 3000₽ earthquake · 10000₽ apocalypse (many debuffs for different prices)
 
 ================================================================================
-  v0.1.0 · пороги меняются в CasualStreamer.exe → Эвенты / Events
+  v0.1.1 · пороги меняются в CasualStreamer.exe → Эвенты / Events
 ================================================================================
