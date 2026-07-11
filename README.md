@@ -1,5 +1,10 @@
 # Modik Streamer by Staili — v0.1.1
 
+**Plugin / Плагин:** `ModikStreamerByStaili.dll`
+**Releases:** [github.com/naduvaha/ModikStreamer/releases](https://github.com/naduvaha/ModikStreamer/releases)
+**Hard dependency / Жёсткая зависимость:** [KrokoshaCasualtiesMP (KrokMP)](https://cucorelib.web.app/) · `CasualStreamer.exe` (в релизе)
+**Optional / Опционально:** [MultyModikByStaili](https://github.com/naduvaha/MultyModik/releases) (эвент «Босс-паук») · [QoL.Unknown](https://github.com/jimmyking9999999/QoL-Unknown/releases) (вкладка настроек в игре)
+
 Стриминг-мод для Casualties Unknown: подключается к DonationAlerts и превращает каждый донат в
 внутриигровое событие. Компаньон-приложение `CasualStreamer.exe` управляет всеми настройками,
 интегрируется с OBS (obs-websocket + Browser Source overlay) и общается с BepInEx-плагином через
@@ -10,6 +15,22 @@ in-game event. The `CasualStreamer.exe` companion app manages every setting, int
 (obs-websocket + Browser Source overlay) and talks to the BepInEx plugin over a local WebSocket.
 
 ---
+
+<details>
+<summary><b>🇷🇺 Зависимости</b></summary>
+
+| | |
+|---|---|
+| **Обязательно** | [BepInEx 5.4.x](https://github.com/BepInEx/BepInEx/releases) |
+| **Обязательно** | [KrokoshaCasualtiesMP (KrokMP)](https://cucorelib.web.app/) — спавн-эвенты на хосте в мультиплеере |
+| **Обязательно** | `CasualStreamer.exe` из релиза (компаньон-приложение) |
+| **Обязательно** | Аккаунт [DonationAlerts](https://www.donationalerts.com/) — OAuth в CasualStreamer |
+| **Опционально** | [MultyModikByStaili](https://github.com/naduvaha/MultyModik/releases) — эвент «Босс-паук» (без него — обычные пауки) |
+| **Опционально** | [QoL.Unknown](https://github.com/jimmyking9999999/QoL-Unknown/releases) — вкладка настроек в игре, кнопка **GIT** |
+| **Опционально** | OBS Studio + obs-websocket — автоматизация сцен |
+| **Скачивание** | [GitHub Releases](https://github.com/naduvaha/ModikStreamer/releases) |
+
+</details>
 
 <details>
 <summary><b>🇷🇺 Установка</b></summary>
@@ -131,6 +152,22 @@ Sign in выдаст ошибку). Чтобы использовать своё
 </details>
 
 ---
+
+<details>
+<summary><b>🇬🇧 Requirements (EN)</b></summary>
+
+| | |
+|---|---|
+| **Required** | [BepInEx 5.4.x](https://github.com/BepInEx/BepInEx/releases) |
+| **Required** | [KrokoshaCasualtiesMP (KrokMP)](https://cucorelib.web.app/) — spawn events run on the MP host |
+| **Required** | `CasualStreamer.exe` from the release (companion app) |
+| **Required** | [DonationAlerts](https://www.donationalerts.com/) account — OAuth in CasualStreamer |
+| **Optional** | [MultyModikByStaili](https://github.com/naduvaha/MultyModik/releases) — Big Spider boss event (else normal spiders) |
+| **Optional** | [QoL.Unknown](https://github.com/jimmyking9999999/QoL-Unknown/releases) — in-game settings tab, **GIT** button |
+| **Optional** | OBS Studio + obs-websocket — scene automation |
+| **Downloads** | [GitHub Releases](https://github.com/naduvaha/ModikStreamer/releases) |
+
+</details>
 
 <details>
 <summary><b>🇬🇧 Installation (EN)</b></summary>
