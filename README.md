@@ -2,7 +2,7 @@
 
 **Plugin / Плагин:** `ModikStreamerByStaili.dll`
 **Releases:** [github.com/naduvaha/ModikStreamer/releases](https://github.com/naduvaha/ModikStreamer/releases)
-**Hard dependency / Жёсткая зависимость:** [KrokoshaCasualtiesMP (KrokMP)](https://cucorelib.web.app/) · `CasualStreamer.exe` (в релизе)
+**Hard dependency / Жёсткая зависимость:** [KrokoshaCasualtiesMP (KrokMP)](https://cucorelib.web.app/) · [CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341) · `CasualStreamer.exe` (в релизе)
 **Optional / Опционально:** [MultyModikByStaili](https://github.com/naduvaha/MultyModik/releases) (эвент «Босс-паук») · [QoL.Unknown](https://github.com/jimmyking9999999/QoL-Unknown/releases) (вкладка настроек в игре)
 
 Стриминг-мод для Casualties Unknown: подключается к DonationAlerts и превращает каждый донат в
@@ -23,6 +23,7 @@ in-game event. The `CasualStreamer.exe` companion app manages every setting, int
 |---|---|
 | **Обязательно** | [BepInEx 5.4.x](https://github.com/BepInEx/BepInEx/releases) |
 | **Обязательно** | [KrokoshaCasualtiesMP (KrokMP)](https://cucorelib.web.app/) — спавн-эвенты на хосте в мультиплеере |
+| **Обязательно** | [CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341) — общая библиотека модов (Nexus) |
 | **Обязательно** | `CasualStreamer.exe` из релиза (компаньон-приложение) |
 | **Обязательно** | Аккаунт [DonationAlerts](https://www.donationalerts.com/) — OAuth в CasualStreamer |
 | **Опционально** | [MultyModikByStaili](https://github.com/naduvaha/MultyModik/releases) — эвент «Босс-паук» (без него — обычные пауки) |
@@ -160,6 +161,7 @@ Sign in выдаст ошибку). Чтобы использовать своё
 |---|---|
 | **Required** | [BepInEx 5.4.x](https://github.com/BepInEx/BepInEx/releases) |
 | **Required** | [KrokoshaCasualtiesMP (KrokMP)](https://cucorelib.web.app/) — spawn events run on the MP host |
+| **Required** | [CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341) — shared modding library (Nexus) |
 | **Required** | `CasualStreamer.exe` from the release (companion app) |
 | **Required** | [DonationAlerts](https://www.donationalerts.com/) account — OAuth in CasualStreamer |
 | **Optional** | [MultyModikByStaili](https://github.com/naduvaha/MultyModik/releases) — Big Spider boss event (else normal spiders) |
